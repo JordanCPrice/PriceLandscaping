@@ -14,9 +14,7 @@ public class Customer {
     private String yardType;
     private double length;
     private double width;
-    private double totalCost;
-    String getDetails;
-    
+    private double totalCost;    
     
     //constructors
     public Customer() {
@@ -115,9 +113,4 @@ public class Customer {
     public void setTotalCost(double totalCost) {
         this.totalCost = totalCost;
     }
-    
-    
-    
-    
-    
 }

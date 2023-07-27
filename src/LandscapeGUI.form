@@ -110,11 +110,13 @@
                       <EmptySpace pref="25" max="32767" attributes="0"/>
                       <Component id="lblInfo2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="lblLength" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtWidth" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="txtLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtWidth" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
                   <Component id="scrSummary" max="32767" attributes="0"/>

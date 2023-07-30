@@ -50,8 +50,8 @@ public class Customer {
         String output = name + "\n";
         output += address + "\n";
         output +="Type: " + yardType + "\n";
-        output +="Width " + width + "\n";
-        output +="Length " + length + "\n";
+        output +="Width: " + width + "\n";
+        output +="Length: " + length + "\n";
         output += "Total Cost: " + fmt.format(totalCost) + "\n";
         
         return output;

@@ -661,8 +661,7 @@ public class LandscapeGUI extends javax.swing.JFrame {
         // clear the radiobutton selection
         btgYardType.clearSelection();
         // put the image back to "Dirt"
-        lblImage.setIcon(new ImageIcon(
-                this.getClass().getResource("dirt.jpg")));
+        lblImage.setIcon(new ImageIcon(this.getClass().getResource("dirt.jpg")));
         txtName.setText("");
         this.txtName.requestFocusInWindow();
         txtAddress.setText("");

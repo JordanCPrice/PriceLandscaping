@@ -1,8 +1,7 @@
 
 import java.text.DecimalFormat;
 
-/**
- *
+/*
  * @author Jordan Price
  */
 public class Customer {
@@ -18,8 +17,7 @@ public class Customer {
     
     //constructors
     public Customer() {
-        //default values
-        
+        //default values        
         customerID = 0;
         name = "N/A";
         address = "N/A";
